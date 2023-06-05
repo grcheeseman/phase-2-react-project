@@ -1,12 +1,12 @@
 import React from "react";
 
-function Search () {
+function Search ({ handleSearch }) {
     return (
-        <div class="search">
+        <div className="search">
             <label>Search Movies</label>
-                <input type="text" class="searchTerm" placeholder="" />
-            <button type="submit" class="searchButton">
-                <i class="material-icons">search</i>
+                <input type="text" className="searchTerm" placeholder="" onChange={handleSearch}/>
+            <button type="submit" className="searchButton">
+                <i className="material-icons">search</i>
             </button>
         </div>
     )

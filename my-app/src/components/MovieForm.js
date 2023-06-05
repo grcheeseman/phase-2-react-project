@@ -28,7 +28,7 @@ function MovieForm () {
     
     return (
         <div className="form-container">
-            <form className = "Movie-Form" onSubmit={handleSubmitForm}>
+            <form  onSubmit={handleSubmitForm}>
                 <label htmlFor="title">Movie Title</label>
                     <input type="text" id="title" name="title" placeholder="Title..." />
                 <label htmlFor="date">Release Year</label>

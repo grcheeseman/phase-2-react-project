@@ -1,5 +1,6 @@
 
 import React from "react";
+import App from "./App";
 
 import Search from "./Search";
 import MovieForm from "./MovieForm";

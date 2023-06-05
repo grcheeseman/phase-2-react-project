@@ -1,13 +1,13 @@
 import React from "react";
 
-function MovieForm () {
+function MovieForm ({setMovies,movies}) {
 
     function handleSubmitForm(e) {
         e.preventDefault()
         
         const newMovie = {
             name: e.target.title.value,
-            date: e.target.date.value,
+            release: parseInt(e.target.date.value),
             image: e.target.image.value,
             summary: e.target.summary.value
         }
@@ -21,9 +21,11 @@ function MovieForm () {
             body: JSON.stringify(newMovie)
         })
         .then((resp) => resp.json())
-        .then((newMovie) => console.log(newMovie))
+        .then((newMovie) => setMovies([...movies,newMovie]))
 
         e.target.reset()
+        
+
     }
     
     return (

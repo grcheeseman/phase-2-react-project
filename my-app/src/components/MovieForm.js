@@ -3,7 +3,7 @@ import React from "react";
 function MovieForm () {
     return (
         <div className="form-container">
-            <form>
+            <form className = "Movie-Form">
                 <label for="title">Movie Title</label>
                     <input type="text" id="title" name="title" placeholder="Title..." />
                 <label for="date">Date Watched</label>

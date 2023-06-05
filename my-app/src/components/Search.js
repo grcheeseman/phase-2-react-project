@@ -3,9 +3,10 @@ import React from "react";
 function Search () {
     return (
         <div class="search">
-            <input type="text" class="searchTerm" placeholder="What are you looking for?" />
+            <label>Search Movies</label>
+                <input type="text" class="searchTerm" placeholder="" />
             <button type="submit" class="searchButton">
-                <i class="fa fa-search"></i>
+                <i class="material-icons">search</i>
             </button>
         </div>
     )

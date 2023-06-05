@@ -2,7 +2,7 @@ import React from "react";
 
 function Search () {
     return (
-        <div class="search">
+        <div className="search">
             <label>Search Movies</label>
                 <input type="text" class="searchTerm" placeholder="" />
             <button type="submit" class="searchButton">

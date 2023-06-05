@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import MoviePage from './MoviePage';
 import Header from './Header';
 

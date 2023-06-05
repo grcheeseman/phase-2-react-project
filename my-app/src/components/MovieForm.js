@@ -2,7 +2,7 @@ import React from "react";
 
 function MovieForm () {
     return (
-        <div class="form-container">
+        <div className="form-container">
             <form>
                 <label for="title">Movie Title</label>
                     <input type="text" id="title" name="title" placeholder="Title..." />

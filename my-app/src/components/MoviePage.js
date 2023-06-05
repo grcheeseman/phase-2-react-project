@@ -1,15 +1,19 @@
-import App from "./App";
+
+import React from "react";
+
+import Search from "./Search";
+import MovieForm from "./MovieForm";
 import MovieCollection from "./MovieCollection";
 
-function MoviePage(){
+function MoviePage() {
     return (
-        <div>
-        <MovieCollection/>
-
+        <div class='movie-page'>
+            <Search />
+            <MovieForm />
+            <MovieCollection/>
         </div>
-
     )
-   
+
 }
 
 export default MoviePage;

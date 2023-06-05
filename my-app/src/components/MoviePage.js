@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import Search from "./Search";
@@ -10,7 +9,7 @@ function MoviePage() {
         <div class='movie-page'>
             <Search />
             <MovieForm />
-            <MovieCollection/>
+            <MovieCollection />
         </div>
     )
 

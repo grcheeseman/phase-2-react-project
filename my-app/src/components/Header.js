@@ -1,10 +1,17 @@
-import App from "./App";
 
-function Header(){
-    return(
-        <div>
+import React from "react";
 
-        </div>
-    )
+function Header() {
+  return (
+    <header>
+      <h1>
+        Harry Potter Movies
+        <span className="logo" role="img">
+          🪄
+        </span>
+      </h1>
+    </header>
+  );
 }
+
 export default Header;

@@ -1,6 +1,5 @@
 import React from 'react';
-import MovieCollection from "./MovieCollection";
-
+import React from "react";
 
 function MovieCard(){
     return(

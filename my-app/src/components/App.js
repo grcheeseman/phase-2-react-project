@@ -1,9 +1,13 @@
 import React from 'react';
 import MoviePage from './MoviePage';
+import Header from './Header';
 
 function App() {
   return (
-    <MoviePage />
+    <div>
+      <Header />
+      <MoviePage />
+    </div>
   );
 }
 

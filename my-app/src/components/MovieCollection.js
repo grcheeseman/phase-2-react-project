@@ -4,12 +4,18 @@ import MovieCard from "./MovieCard";
 import MovieDetail from "./MovieDetail"
 
 function MovieCollection({movies}){
-    console.log(movies)
-    // const renderMoviesToCards = 
+     const renderMoviesToCards = movies.map((movie)=>
+        <MovieCard
+            key = {movie.id}
+            name = {movie.name}
+            image = {movie.image}
+            release = {movie.release}
+        
+        />
+     )
     return(
-        <ul className = "cards">
-            <MovieCard />
-            <MovieDetail />
+        <ul className = "cards"> {renderMoviesToCards}
+           
         </ul>
     )
 }

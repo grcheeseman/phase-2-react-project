@@ -1,0 +1,28 @@
+.card {
+    margin: 1rem; 
+    width: calc(22% - 1.0rem);  
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+   
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .Movie-Form {
+    margin: 1px;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid;
+    padding: 1px; 
+    
+  }
+
+ 

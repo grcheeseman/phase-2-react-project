@@ -2,12 +2,12 @@ import React from 'react';
 import MovieCollection from './MovieCollection';
 
 
-function MovieCard(){
+function MovieCard({name,image,release}){
     return(
         <li className = "card">
-            <img src={"movie-image"} alt={"movie name"} />
-            <h4>{"movie-name"}</h4>
-            <p>Year Released: {"year-released"}</p>
+            <img src={image} alt={name} />
+            <h4>{name}</h4>
+            <p>Year Released: {release}</p>
 
         </li>
 

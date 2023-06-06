@@ -9,6 +9,15 @@ import MovieCollection from "./MovieCollection";
 function MoviePage() {
     const [ movies, setMovies ] = useState([])
     const [ searchTerm, setSearchTerm ] = useState("")
+    const [forum,setForum] = useState([])
+
+
+    useEffect(()=>{
+        fetch(" http://localhost:3001/forum")
+            .then(resp=> resp.json())
+            .then(forum => setForum(forum))
+    },[])
+
     
     useEffect(()=>{
         fetch("http://localhost:3001/movies")
@@ -24,7 +33,7 @@ function MoviePage() {
     return (
         <div className='movie-page'>
             <Search handleSearch={handleSearch} />
-            <MovieForm movies = {movies} setMovies = {setMovies}/>
+            <MovieForm forum = {forum} setForum = {setForum}/>
             <MovieCollection movies={movies} searchTerm={searchTerm} />
         </div>
     )

@@ -5,6 +5,7 @@ function MovieCollection({movies}){
      const renderMoviesToCards = movies.map((movie)=>
         <MovieCard
             key = {movie.id}
+            id = {movie.id}
             name = {movie.name}
             image = {movie.image}
             release = {movie.release}

@@ -1,10 +1,7 @@
 import React from "react";
 import { useEffect,useState } from "react";
-
 import Search from "./Search";
-import MovieForm from "./MovieForm";
 import MovieCollection from "./MovieCollection";
-
 
 function MoviePage() {
     const [ movies, setMovies ] = useState([])
@@ -24,7 +21,7 @@ function MoviePage() {
     return (
         <div className='movie-page'>
             <Search handleSearch={handleSearch} />
-            <MovieForm movies = {movies} setMovies = {setMovies}/>
+            {/* <MovieForm forum = {forum} setForum = {setForum}/> */}
             <MovieCollection movies={movies} searchTerm={searchTerm} />
         </div>
     )

@@ -1,16 +1,20 @@
 import React from "react";
+import MovieDetailCard from "./MovieDetailCard";
 
-function MovieDetail({ name, image, release, summary }){
+function MovieDetails({movies}){
+     const renderMovieDetails = movies.map((movie)=>
+        <MovieDetailCard
+            key = {movie.id}
+            name = {movie.name}
+            image = {movie.image}
+            release = {movie.release}
+        />
+     )
     return(
-        <div>
-            <li className = "detail">
-            <img src={image} alt={name} />
-            <h1>{name}</h1>
-            <p>Year Released: {release}</p>
-            <p>Movie Summary: {summary}</p>
-        </li>
-        </div>
+        <ul className = "details">
+            {renderMovieDetails}
+        </ul>
     )
 }
 
-export default MovieDetail;
+export default MovieDetails;

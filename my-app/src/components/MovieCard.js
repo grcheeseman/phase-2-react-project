@@ -1,6 +1,4 @@
 import React from 'react';
-import MovieCollection from './MovieCollection';
-
 
 function MovieCard({name,image,release}){
     return(

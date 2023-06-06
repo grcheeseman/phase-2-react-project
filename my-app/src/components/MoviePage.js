@@ -11,7 +11,7 @@ function MoviePage() {
     const [ searchTerm, setSearchTerm ] = useState("")
     
     useEffect(()=>{
-        fetch(" http://localhost:3001/movies")
+        fetch("http://localhost:3001/movies")
             .then(resp=> resp.json())
             .then(movies => setMovies(movies))
     },[])

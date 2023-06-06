@@ -1,6 +1,5 @@
 import React from 'react';
 import MovieCard from "./MovieCard";
-import MovieDetail from "./MovieDetail"
 
 function MovieCollection({movies}){
      const renderMoviesToCards = movies.map((movie)=>
@@ -9,12 +8,11 @@ function MovieCollection({movies}){
             name = {movie.name}
             image = {movie.image}
             release = {movie.release}
-        
         />
      )
     return(
-        <ul className = "cards"> {renderMoviesToCards}
-           
+        <ul className = "cards">
+            {renderMoviesToCards}
         </ul>
     )
 }

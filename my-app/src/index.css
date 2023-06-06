@@ -15,36 +15,34 @@
   }
 
 
-.Movie-Form input{
-
-  display: block; 
- 
+.Movie-Form label{
+  margin: 5px;
 }
-
 
 .Movie-Form {
  display: flex;
- justify-content: center;
  flex-direction: column;
+ padding-left: 200px;
+ padding-right: 200px;
+ text-align: center;
+ margin: 0 auto;
+
+
  
 }
 .Movie-Form button{
   height: 5vh;
-  width:10%;
-  margin: right 5px;
- 
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  
 }
-.Movie-Form label,input,textarea,button {
- font-family:fantasy;
- margin:0%;
- 
-}
+
 
 
 
   .forumCard {
-    list-style: none;
-   
+    list-style: none; 
   }
   
 
@@ -56,15 +54,3 @@
     background-color: cadetblue;
   }
 
-  /* width: 75%;
-  padding: .5rem .8rem .5rem .8rem;
-  margin:2mm;
-  border: solid;
-  border-radius: 5px;
-  font-size: 20px;
-   */
-
-     /* font-size: 17px ;
-      text-align: center;
-      color:black;
-      margin: 0 0 .5vh 0;   */

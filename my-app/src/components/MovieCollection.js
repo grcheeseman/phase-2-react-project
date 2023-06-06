@@ -10,6 +10,7 @@ function MovieCollection({ movies, searchTerm }){
     const renderMoviesToCards = filteredMovies.map((movie)=>
         <MovieCard
             key = {movie.id}
+            id = {movie.id}
             name = {movie.name}
             image = {movie.image}
             release = {movie.release}

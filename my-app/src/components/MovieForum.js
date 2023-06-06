@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import MovieForumCard from "./MovieForumCard";
 
-function MovieForm () {
+function MovieForum () {
 
     const [ forums, setForums ] = useState([])
 
@@ -72,4 +72,4 @@ function MovieForm () {
     )
 }
 
-export default MovieForm;
+export default MovieForum;

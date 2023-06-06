@@ -1,18 +1,35 @@
+@font-face {
+  font-family: 'ParryHotter';
+  src: local('ParryHotter'),
+    url('./fonts/ParryHotter.ttf') format('truetype');
+}
+
+html body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .card {
-    margin: 1rem; 
-    width: calc(22% - 1.0rem);  
-    text-align: center;
-  }
-  
-  .card img {
-    width: 100%;
-   
-  }
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-  }
+  margin: 1rem; 
+  width: calc(20% - 1.0rem);  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
 
 
 .Movie-Form label{
@@ -39,18 +56,64 @@
 }
 
 
-
-
   .forumCard {
     list-style: none; 
   }
   
 
-  header h1 {
-    font-size: 2.5em;
-    font-weight: 900;
-    text-align: center;
-    padding: 0.5rem 0;
-    background-color: cadetblue;
-  }
+
+header {
+  background-color: #740001;
+  font-family: "ParryHotter";
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
+  padding: 1rem;
+}
+
+header ul {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+header ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 900;
+  text-align: right;
+  padding: 1rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.search input {
+  padding: 6px 10px;
+  background: #ffffff;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.search button {
+  padding: 4px 6px 2px;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+  border-radius: 25%;
+}
 

@@ -4,6 +4,8 @@ import './index.css';
 import App from './components/App';
 import { BrowserRouter } from "react-router-dom";
 
+import './fonts/ParryHotter.ttf';
+
 function Router() {
         return (
             <BrowserRouter>

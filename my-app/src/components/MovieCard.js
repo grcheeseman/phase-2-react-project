@@ -8,10 +8,7 @@ function MovieCard(){
             <img src={"movie-image"} alt={"movie name"} />
             <h4>{"movie-name"}</h4>
             <p>Year Released: {"year-released"}</p>
-
         </li>
-
-       
     )
 }
 

@@ -24,7 +24,7 @@ function MoviePage() {
     return (
         <div className='movie-page'>
             <Search handleSearch={handleSearch} />
-            <MovieForm />
+            <MovieForm movies = {movies} setMovies = {setMovies}/>
             <MovieCollection movies={movies} searchTerm={searchTerm} />
         </div>
     )

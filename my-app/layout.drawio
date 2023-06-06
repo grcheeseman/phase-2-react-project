@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="wjiSazGqJS-tJZMsY4g5" name="Page-1">
-        <mxGraphModel dx="1347" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1980" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -51,31 +51,31 @@
                         <mxPoint x="180" y="190" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="Form (route)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="15" value="Forum (route)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="260" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Movie Card (formating for movie photos)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="16" value="Movie Card (formating for movie photos)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-200" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="endArrow=none;html=1;exitX=0.33;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.397;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="10">
+                <mxCell id="17" value="" style="endArrow=none;html=1;exitX=0.33;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.397;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="16" target="10" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="40" y="310" as="sourcePoint"/>
                         <mxPoint x="90" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="" style="endArrow=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="15" target="6">
+                <mxCell id="18" value="" style="endArrow=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="15" target="6" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="40" y="310" as="sourcePoint"/>
                         <mxPoint x="90" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="10">
+                <mxCell id="19" value="" style="endArrow=none;html=1;" parent="1" target="10" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="30" y="380" as="sourcePoint"/>
                         <mxPoint x="60" y="200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="Movie Details (route)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="20" value="Movie Details (route)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-40" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>

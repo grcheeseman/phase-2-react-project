@@ -61,50 +61,50 @@
     {
       "id": 1,
       "name": "Bob",
-      "movie-title": "Harry Potter and the Sorcerer's Stone",
+      "title": "Harry Potter and the Sorcerer's Stone",
       "subject": "Hot Take",
       "comment": "Wow what a cool movie I cant wait for the next release!"
     },
     {
       "id": 2,
       "name": "Martin",
-      "movie-title": "Harry Potter and the Chamber of Secrets",
-      "subject": "",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "subject": "Fan Comment",
       "comment": "I don't know if I can stand behind a huge snake petrifying kids!! but wicked graphics"
     },
     {
       "id": 3,
       "name": "Sasha",
-      "movie-title": "Harry Potter and the Chamber of Secrets",
+      "title": "Harry Potter and the Chamber of Secrets",
       "subject": "In agreement",
       "comment": "To add to the comment above! The snake was pretty rowdy but a nessecary evil so that Harry Potter could slay the BEAST!!!!"
     },
     {
       "id": 4,
       "name": "Kreg",
-      "movie-title": "Harry Potter and the Goblet of Fire",
-      "subject": "",
+      "title": "Harry Potter and the Goblet of Fire",
+      "subject": "In agreement",
       "comment": "That game was rigged and everyone knows it ! Why is Valdamort trying to merk Harry Potter"
     },
     {
       "id": 5,
       "name": "Drake",
-      "movie-title": "Harry Potter and the Order of the Phoenix",
-      "subject": "",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "subject": "Fan Comment",
       "comment": "This movies continues to get spicy... what a exciting twist near the end! "
     },
     {
       "id": 6,
       "name": "Shane",
-      "movie-title": "Harry Potter and the Half Blood Prince",
-      "subject": "",
+      "title": "Harry Potter and the Half Blood Prince",
+      "subject": "Hot Take",
       "comment": "Hopefully dumbledore and Harry can pull this one off!"
     },
     {
       "id": 7,
       "name": "Tucker",
-      "movie-title": "Harry Potter and the Deathly Hallows Part 1",
-      "subject": "",
+      "title": "Harry Potter and the Deathly Hallows Part 1",
+      "subject": "Fan Comment",
       "comment": "Hopefully Dumbledore and Harry can pull this one off!"
     }
    

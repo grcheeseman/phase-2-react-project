@@ -31,16 +31,31 @@ html body {
   list-style: none;
 }
 
+.Movie-Forum label{
+  margin: 5px;
+}
+
 .Movie-Forum {
-  margin: 1px;
-  width: 50%;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1px; 
+ display: flex;
+ flex-direction: column;
+ padding-left: 200px;
+ padding-right: 200px;
+ text-align: center;
+ margin: 0 auto; 
+}
+
+.Movie-Forum button{
+  height: 5vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
   
 }
 
+  .forumCard {
+    list-style: none; 
+  }
+  
 header {
   background-color: #740001;
   font-family: "ParryHotter";
@@ -114,3 +129,4 @@ header ul a {
     display: inline;
   }
 }
+

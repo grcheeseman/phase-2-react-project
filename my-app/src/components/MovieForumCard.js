@@ -2,11 +2,11 @@ import React from 'react';
 
 function MovieForumCard({name,title,subject,comment}){
     return(
-        <li className = "card">
-            <h4>{name}</h4>
-            <h2>{title}</h2>
-            <h3>{subject}</h3>
-            <p>{comment}</p>
+        <li className = "forumCard">
+            <h3>Subject:<p>{subject}</p></h3>
+            <h3>Movie Title:<p>{title}</p></h3>
+            <p>Comment :<p>{comment}</p></p>
+            <p>Submitted By:{name}</p>
         </li>
     )
 }

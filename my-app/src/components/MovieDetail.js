@@ -13,11 +13,11 @@ function MovieDetail() {
     },[])
 
     return(
-        <div>
+        <div className= "container">
             <img src={movie.image} alt={movie.name} />
             <h1>{movie.name}</h1>
-            <p>Year Released: {movie.release}</p>
-            <p>Movie Summary: {movie.summary}</p>
+            <p><b>Year Released:</b> {movie.release}</p>
+            <p><b>Movie Summary:</b> {movie.summary}</p>
         </div>
     )
 }

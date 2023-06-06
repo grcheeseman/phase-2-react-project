@@ -8,12 +8,12 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-    <Header />
-    <Routes>
-        <Route exact path = '/' element = {<MoviePage />} />
-        <Route path = '/forum' element = { <MovieForum /> } />
-        <Route path = '/detail/:movieId' element = { <MovieDetail /> } />
-    </Routes>
+      <Header />
+      <Routes>
+         <Route exact path = '/' element = {<MoviePage />} />
+         <Route path = '/forum' element = { <MovieForum /> } />
+         <Route path = '/detail/:movieId' element = { <MovieDetail /> } />
+      </Routes>
     </div>
   )
 }

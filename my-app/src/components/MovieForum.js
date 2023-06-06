@@ -6,7 +6,6 @@ function MovieForum () {
 
     const [ forums, setForums ] = useState([])
 
-
     useEffect(()=>{
         fetch(" http://localhost:3001/forum")
             .then(resp=> resp.json())
@@ -48,14 +47,12 @@ function MovieForum () {
     
     return (
         <div className="form-box">
-              
 
             <form className ="Movie-Form" onSubmit={handleSubmitForm} >
             
                 <label htmlFor="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Name..." /> 
                 <label htmlFor="title">Movie Title</label>
-
                     <input type="text" id="title" name="title" placeholder="Title..." />
                 <label htmlFor="subject">Subject</label>
                     <input type="text" id="subject" name="subject" placeholder="Subject..." />
@@ -64,10 +61,8 @@ function MovieForum () {
                 <button type="submit" value="Submit" name="button">APARECIUM </button>  
                
             </form>
-            <div>{renderMovieForum}</div>
-            
-            
 
+            <div>{renderMovieForum}</div>
         </div>
     )
 }

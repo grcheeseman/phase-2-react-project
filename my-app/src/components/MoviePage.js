@@ -1,7 +1,6 @@
 import React from "react";
 import { useEffect,useState } from "react";
 
-
 import Search from "./Search";
 import MovieForm from "./MovieForm";
 import MovieCollection from "./MovieCollection";

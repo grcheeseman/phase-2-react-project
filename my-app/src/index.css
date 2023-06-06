@@ -16,12 +16,21 @@
 
   .Movie-Form {
     margin: 1px;
-    width: 50%;
+    
     display:flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: flex-start;
-    padding: 1px; 
+    /* padding: 1px;   */
     
   }
+
+
+  .forumCard {
+    
+    display:flex;
+    list-style: none;
+    border-style: solid;
+  }
+  
 
  

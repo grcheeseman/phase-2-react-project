@@ -41,13 +41,14 @@ function MovieForm () {
             body: JSON.stringify(newComment)
         })
         .then((resp) => resp.json())
-        .then((newComment) => setForums([...forums, newComment]))
+        .then((newComment) => setForums([newComment,...forums ]))
 
         e.target.reset()
         }
     
     return (
         <div className="Movie-Form">
+              
 
             <form onSubmit={handleSubmitForm} >
                 <label htmlFor="name">Your Name</label>
@@ -62,6 +63,7 @@ function MovieForm () {
                 <input type="submit" value="Submit" />
             </form>
             {renderMovieForum}
+            
 
         </div>
     )

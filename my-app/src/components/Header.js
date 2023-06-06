@@ -12,8 +12,8 @@ function Header() {
       </h1>
       <nav>
         <ul>
-        <Link to = "/">Home Page</Link>
-        <Link to = "/forum">Movie Forum</Link> 
+        <Link to = "/">Home</Link>
+        <Link to = "/forum">Forum</Link> 
         </ul>
       </nav>
     </header>

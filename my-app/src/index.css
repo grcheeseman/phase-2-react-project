@@ -31,15 +31,36 @@ html body {
   list-style: none;
 }
 
+
+.Movie-Form label{
+  margin: 5px;
+}
+
 .Movie-Form {
-  margin: 1px;
-  width: 50%;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1px; 
+ display: flex;
+ flex-direction: column;
+ padding-left: 200px;
+ padding-right: 200px;
+ text-align: center;
+ margin: 0 auto;
+
+
+ 
+}
+.Movie-Form button{
+  height: 5vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
   
 }
+
+
+  .forumCard {
+    list-style: none; 
+  }
+  
+
 
 header {
   background-color: #740001;
@@ -95,3 +116,4 @@ header ul a {
   cursor: pointer;
   border-radius: 25%;
 }
+

@@ -48,7 +48,7 @@ function MovieForum () {
     return (
         <div className="form-box">
 
-            <form className ="Movie-Form" onSubmit={handleSubmitForm} >
+            <form className ="Movie-Forum" onSubmit={handleSubmitForm} >
             
                 <label htmlFor="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Name..." /> 

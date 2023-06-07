@@ -11,7 +11,7 @@ html body {
 
 .card {
   margin: 1rem; 
-  width: calc(20% - 1.0rem);  
+  width: calc(20% - 1rem);  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,7 @@ html body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
 }
 
@@ -37,8 +38,7 @@ html body {
   display:flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1px; 
-  
+  padding: 1px;
 }
 
 header {
@@ -55,13 +55,17 @@ header h1 {
   font-size: 2em;
   font-weight: 500;
   text-align: left;
-  padding: 1rem;
+  padding-left: 1rem;
 }
 
 header ul {
   display: flex;
   align-items: flex-end;
   flex-direction: row;
+}
+
+header ul a:hover {
+  color: lightgray;
 }
 
 header ul a {
@@ -71,6 +75,11 @@ header ul a {
   font-weight: 900;
   text-align: right;
   padding: 1rem;
+}
+
+.logo {
+  margin: 0.5em;
+  font-size: 1.25em;
 }
 
 .search {

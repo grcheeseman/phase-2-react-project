@@ -26,7 +26,7 @@ function MovieForum () {
         e.preventDefault()
         
         const newComment = {
-            movieTitle: e.target.title.value,
+            title: e.target.title.value,
             name: e.target.name.value,
             subject: e.target.subject.value,
             comment: e.target.comment.value
@@ -64,7 +64,7 @@ function MovieForum () {
                 <button type="submit" value="Submit" name="button">APARECIUM </button>  
                
             </form>
-            <div>{renderMovieForum}</div>
+            <div className = "forumCards">{renderMovieForum}</div>
             
             
 

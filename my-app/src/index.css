@@ -11,7 +11,7 @@ html body {
 
 .card {
   margin: 1rem; 
-  width: calc(20% - 1.0rem);  
+  width: calc(20% - 1rem);  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -28,8 +28,10 @@ html body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
 }
+
 
 
 .forumCard{
@@ -53,38 +55,32 @@ html body {
 }
   
 
+.Movie-Forum label{
 
-
-.Movie-Form label{
   margin: 5px;
 }
 
-.Movie-Form {
+.Movie-Forum {
  display: flex;
  flex-direction: column;
  padding-left: 200px;
  padding-right: 200px;
  text-align: center;
- margin: 0 auto;
-
-
- 
+ margin: 0 auto; 
 }
-.Movie-Form button{
+
+.Movie-Forum button{
   height: 5vh;
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 10px;
-  
-}
 
+}
 
   .forumCard {
     list-style: none; 
   }
   
-
-
 header {
   background-color: #740001;
   font-family: "ParryHotter";
@@ -99,13 +95,17 @@ header h1 {
   font-size: 2em;
   font-weight: 500;
   text-align: left;
-  padding: 1rem;
+  padding-left: 1rem;
 }
 
 header ul {
   display: flex;
   align-items: flex-end;
   flex-direction: row;
+}
+
+header ul a:hover {
+  color: lightgray;
 }
 
 header ul a {
@@ -115,6 +115,11 @@ header ul a {
   font-weight: 900;
   text-align: right;
   padding: 1rem;
+}
+
+.logo {
+  margin: 0.5em;
+  font-size: 1.25em;
 }
 
 .search {
@@ -138,5 +143,24 @@ header ul a {
   border: none;
   cursor: pointer;
   border-radius: 25%;
+}
+
+.Movie-Detail {
+  padding: 10px;
+  
+}
+
+.container {
+  padding: 40px 40px 40px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  &__image {
+    width: 250px;
+    margin: 30px 30px 30px 0;
+    float: left;
+  }
+  &__text {
+    display: inline;
+  }
 }
 

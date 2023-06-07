@@ -32,15 +32,31 @@ html body {
   list-style: none;
 }
 
-.Movie-Form {
-  margin: 1px;
-  width: 50%;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1px;
+.Movie-Forum label{
+  margin: 5px;
 }
 
+.Movie-Forum {
+ display: flex;
+ flex-direction: column;
+ padding-left: 200px;
+ padding-right: 200px;
+ text-align: center;
+ margin: 0 auto; 
+}
+
+.Movie-Forum button{
+  height: 5vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+
+}
+
+  .forumCard {
+    list-style: none; 
+  }
+  
 header {
   background-color: #740001;
   font-family: "ParryHotter";
@@ -104,3 +120,23 @@ header ul a {
   cursor: pointer;
   border-radius: 25%;
 }
+
+.Movie-Detail {
+  padding: 10px;
+  
+}
+
+.container {
+  padding: 40px 40px 40px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  &__image {
+    width: 250px;
+    margin: 30px 30px 30px 0;
+    float: left;
+  }
+  &__text {
+    display: inline;
+  }
+}
+

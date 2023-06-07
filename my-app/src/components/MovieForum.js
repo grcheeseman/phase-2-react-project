@@ -2,10 +2,9 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import MovieForumCard from "./MovieForumCard";
 
-function MovieForm () {
+function MovieForum () {
 
     const [ forums, setForums ] = useState([])
-
 
     useEffect(()=>{
         fetch(" http://localhost:3001/forum")
@@ -41,30 +40,31 @@ function MovieForm () {
             body: JSON.stringify(newComment)
         })
         .then((resp) => resp.json())
-        .then((newComment) => setForums([...forums, newComment]))
+        .then((newComment) => setForums([newComment, ...forums ]))
 
         e.target.reset()
         }
     
     return (
-        <div className="Movie-Form">
+        <div className="form-box">
 
-            <form onSubmit={handleSubmitForm} >
+            <form className ="Movie-Form" onSubmit={handleSubmitForm} >
+            
                 <label htmlFor="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Name..." /> 
                 <label htmlFor="title">Movie Title</label>
-
                     <input type="text" id="title" name="title" placeholder="Title..." />
                 <label htmlFor="subject">Subject</label>
                     <input type="text" id="subject" name="subject" placeholder="Subject..." />
                 <label htmlFor="comment">Comment</label>
                     <textarea type="text" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
-                <input type="submit" value="Submit" />
+                <button type="submit" value="Submit" name="button">APARECIUM </button>  
+               
             </form>
-            {renderMovieForum}
 
+            <div>{renderMovieForum}</div>
         </div>
     )
 }
 
-export default MovieForm;
+export default MovieForum;

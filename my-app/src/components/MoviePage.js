@@ -21,7 +21,6 @@ function MoviePage() {
     return (
         <div className='movie-page'>
             <Search handleSearch={handleSearch} />
-            {/* <MovieForm forum = {forum} setForum = {setForum}/> */}
             <MovieCollection movies={movies} searchTerm={searchTerm} />
         </div>
     )

@@ -53,14 +53,12 @@ html body {
   list-style: none;
 
 }
-  
 
 .Movie-Forum label{
-
   margin: 5px;
 }
 
-.Movie-Forum {
+.Movie-Form {
  display: flex;
  flex-direction: column;
  padding-left: 200px;
@@ -74,7 +72,6 @@ html body {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 10px;
-
 }
 
   .forumCard {

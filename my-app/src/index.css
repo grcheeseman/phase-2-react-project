@@ -4,18 +4,16 @@
     url('./fonts/ParryHotter.ttf') format('truetype');
 }
 
-  .body {
-    
-    background-image: url("https://www.pcgames.de/screenshots/1000x562/2023/02/Hogwarts_Shightseeing_Thumb.jpg");
-    background-size: cover;
-
-  }
-
-
+.body {
+  background-image: url("https://www.pcgames.de/screenshots/1000x562/2023/02/Hogwarts_Shightseeing_Thumb.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 html body {
   margin: 0;
   font-family:Arial;
+  background-color: #740001;
 }
 
 .card {
@@ -31,12 +29,10 @@ html body {
   /* color: azure; */
   opacity: 0.3;
   background-color:#dbe7e563;
-  
 }
 
 .card img {
   width: 100%;
-  
 }
 
 
@@ -45,10 +41,7 @@ html body {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-
 }
-
-
 
 .forumCard{
   margin: 5px; 
@@ -56,84 +49,126 @@ html body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* padding: 5px; */
+  justify-content: space-between;
+  padding: 5px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: small;
   opacity: 0.3;
   background-color:#dbe7e563;
-  
 }
 
 .forumCards {
+  margin: 0px auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   list-style: none;
 }
 
-
 .Movie-Forum input {
   opacity: 0.3;
   background-color:#dbe7e5a9;
-
+  border-radius: 5px;
+  border: none;
+  padding: 6px 10px;
+  margin: 10px;
 }
 
 .Movie-Forum input::placeholder {
  color:black;
-
 }
 
 .Movie-Forum textarea::placeholder {
   color:black;
- 
+  font-family: Arial, Helvetica, sans-serif;
  }
 
 .Movie-Forum textarea {
   opacity: 0.3;
   background-color:#dbe7e5a9;
-
+  border-radius: 5px;
 }
-  
-
 
 .Movie-Forum label {
   margin: 5px;
+  color: black;
 }
 
-.Movie-Forum{
+.Movie-Forum {
  display: flex;
  flex-direction: column;
  padding-left: 200px;
  padding-right: 200px;
  text-align: center;
- margin: 0 auto; 
+ margin: 10px auto; 
  border-radius: 10px;
  font-weight: bold;
- 
+}
+
+select {
+  opacity: 0.3;
+  background-color:#dbe7e5a9;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 5px;
+  margin: 10px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+  opacity: 0.3;
+  background-color:#dbe7e5a9;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin: 10px;
 }
 
 .Movie-Forum button{
-  height: 5vh;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 125px;
+  margin: 0px auto;
+  padding: 5px;
+  border: none;
+  /* margin-left: 200px;
+  margin-right: 200px; */
   margin-top: 20px;
   opacity: 0.3;
   background-color:#dbe7e5a9;
   margin-bottom: 30px;
-
+  border-radius: 5px;
 }
 
-  .forumCard {
-    list-style: none; 
+.forumCard {
+  list-style: none; 
+  padding: 10px;
+}
+
+@media (min-width: 1080px) {
+  .card {
+    width: 212px;
   }
-  
+  .movie-page {
+    margin: 0px auto;
+    width: 1080px;
+  }
+  .form-box {
+    margin: 0px auto;
+    width: 1080px;
+  }
+  .container {
+    margin: 0px auto;
+    width: 1080px;
+  }
+}
+
 header {
   background-color: #740001;
   font-family: "ParryHotter";
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   
 }
@@ -165,6 +200,7 @@ header ul a {
   text-align: right;
   padding: 1rem;
 }
+
 header h1 a {
   text-decoration: none;
   color: white;
@@ -180,11 +216,10 @@ header h1 a:hover {
   font-size: 1.25em;
 }
 
-.search {
+.search-form {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin: 1rem;
-  
 }
 
 .search input {
@@ -193,7 +228,6 @@ header h1 a:hover {
   font-size: 17px;
   border: none;
   outline: none;
-  /* border-bottom: 1px solid black; */
   border-radius: 5px;
   
 }
@@ -204,7 +238,7 @@ header h1 a:hover {
   border: none;
   cursor: pointer;
   border-radius: 25%;
-  /* margin-left: 5px; */
+  margin-left: 5px;
 }
 
 .Movie-Detail {
@@ -213,19 +247,21 @@ header h1 a:hover {
 }
 
 .container {
+  display: block;
+  width: 75%;
   padding: 40px 40px 40px;
-  margin: 1rem;
+  margin: auto;
   color: azure;
 }
   
-  image {
-    width: 250px;
-    margin: 30px 30px 30px 0;
-    float: left;
-  }
+image {
+  width: 250px;
+  margin: 30px 30px 30px 0;
+  float: left;
+}
 
-  text {
-    display: inline;
-  }
+text {
+  display: inline;
+}
 
 

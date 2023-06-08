@@ -72,13 +72,9 @@ html body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  
-
 }
-  
 
 .Movie-Forum label {
-
   margin: 5px;
 }
 
@@ -97,7 +93,6 @@ html body {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 10px;
-
 }
 
   .forumCard {

@@ -50,6 +50,7 @@ function MovieForum () {
 
             <form className ="Movie-Forum" onSubmit={handleSubmitForm} >
             
+           
                 <label htmlFor="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Name..." /> 
                 <label htmlFor="title">Movie Title</label>
@@ -58,8 +59,8 @@ function MovieForum () {
                     <input type="text" id="subject" name="subject" placeholder="Subject..." />
                 <label htmlFor="comment">Comment</label>
                     <textarea type="text" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
-                <button type="submit" value="Submit" name="button">APARECIUM </button>  
-               
+                <button type="submit" value="Submit" name="button">APARECIUM</button>  
+                
             </form>
 
             <div className = "forumCards">{renderMovieForum}</div>

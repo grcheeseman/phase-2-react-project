@@ -70,16 +70,14 @@ html body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  
-
 }
+
 
 .Movie-Forum input {
   opacity: 0.3;
   background-color:#dbe7e5a9;
 
 }
-
 
 .Movie-Forum input::placeholder {
  color:black;
@@ -98,8 +96,8 @@ html body {
 }
   
 
-.Movie-Forum label {
 
+.Movie-Forum label {
   margin: 5px;
 }
 

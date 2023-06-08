@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Sparkle from 'react-sparkle';
 
 function Header() {
   return (
-    <header>
+    <header style={{ position: 'relative' }}>
+      <Sparkle flickerSpeed="slowest" fadeOutSpeed={10} color={'yellow'}/>
       <h1 >
         
       <Link to = "/">Harry Potter Movies</Link>
         
-        <span className="logo" role="img">
+        <span className="logo" role="img" >
           🪄
         </span>
       </h1>

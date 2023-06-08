@@ -52,15 +52,15 @@ function MovieForum () {
             
            
                 <label htmlFor="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name..." /> 
+                    <input type="text" id="name" name="name" placeholder="Your Name..." required/> 
                 <label htmlFor="title">Movie Title</label>
-                    <input type="text" id="title" name="title" placeholder="Title..." />
+                    <input type="text" id="title" name="title" placeholder="Title..." required/>
                 <label htmlFor="subject">Subject</label>
                     <input type="text" id="subject" name="subject" placeholder="Subject..." />
                 <label htmlFor="comment">Comment</label>
-                    <textarea type="text" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
+                <textarea type="text" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
                 <button type="submit" value="Submit" name="button">APARECIUM</button>  
-                
+
             </form>
 
             <div className = "forumCards">{renderMovieForum}</div>

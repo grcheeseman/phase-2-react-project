@@ -14,8 +14,9 @@ function MoviePage() {
     },[])
 
     function handleSearch(e) {
-        console.log(e.target.value)
-        setSearchTerm(e.target.value)
+        e.preventDefault()
+        
+        setSearchTerm(e.target.searchTerm.value)
     }
     
     return (

@@ -8,7 +8,6 @@
     
     background-image: url("https://www.pcgames.de/screenshots/1000x562/2023/02/Hogwarts_Shightseeing_Thumb.jpg");
     background-size: cover;
-    
 
   }
 
@@ -16,7 +15,7 @@
 
 html body {
   margin: 0;
-  font-family: fantasy;
+  font-family:Arial;
 }
 
 .card {
@@ -40,13 +39,12 @@ html body {
   
 }
 
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-
-  
 
 }
 
@@ -75,6 +73,29 @@ html body {
   
 
 }
+
+.Movie-Forum input {
+  opacity: 0.3;
+  background-color:#dbe7e5a9;
+
+}
+
+
+.Movie-Forum input::placeholder {
+ color:black;
+
+}
+
+.Movie-Forum textarea::placeholder {
+  color:black;
+ 
+ }
+
+.Movie-Forum textarea {
+  opacity: 0.3;
+  background-color:#dbe7e5a9;
+
+}
   
 
 .Movie-Forum label {
@@ -89,14 +110,19 @@ html body {
  padding-right: 200px;
  text-align: center;
  margin: 0 auto; 
- color: azure;
+ border-radius: 10px;
+ font-weight: bold;
+ 
 }
 
 .Movie-Forum button{
   height: 5vh;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 10px;
+  margin-top: 20px;
+  opacity: 0.3;
+  background-color:#dbe7e5a9;
+  margin-bottom: 30px;
 
 }
 
@@ -160,6 +186,7 @@ header h1 a:hover {
   display: flex;
   align-items: center;
   margin: 1rem;
+  
 }
 
 .search input {
@@ -168,7 +195,9 @@ header h1 a:hover {
   font-size: 17px;
   border: none;
   outline: none;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  border-radius: 5px;
+  
 }
 
 .search button {
@@ -177,6 +206,7 @@ header h1 a:hover {
   border: none;
   cursor: pointer;
   border-radius: 25%;
+  /* margin-left: 5px; */
 }
 
 .Movie-Detail {
@@ -187,11 +217,9 @@ header h1 a:hover {
 .container {
   padding: 40px 40px 40px;
   margin: 1rem;
-  
   color: azure;
 }
   
-
   image {
     width: 250px;
     margin: 30px 30px 30px 0;

@@ -5,7 +5,7 @@ import Sparkle from 'react-sparkle';
 function Header() {
   return (
     <header style={{ position: 'relative' }}>
-      <Sparkle color={'yellow'}/>
+      <Sparkle flickerSpeed="slowest" fadeOutSpeed={10} color={'yellow'}/>
       <h1 >
         
       <Link to = "/">Harry Potter Movies</Link>

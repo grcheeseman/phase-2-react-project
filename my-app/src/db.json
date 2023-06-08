@@ -76,14 +76,14 @@
       "id": 3,
       "name": "Sasha",
       "title": "Harry Potter and the Chamber of Secrets",
-      "subject": "In agreement",
-      "comment": "To add to the comment above! The snake was pretty rowdy but a nessecary evil so that Harry Potter could slay the BEAST!!!!"
+      "subject": "The snake",
+      "comment": "The snake was pretty rowdy but a nessecary evil so that Harry Potter could slay the BEAST!!!!"
     },
     {
       "id": 4,
       "name": "Kreg",
       "title": "Harry Potter and the Goblet of Fire",
-      "subject": "In agreement",
+      "subject": "Rigged",
       "comment": "That game was rigged and everyone knows it ! Why is Valdamort trying to merk Harry Potter"
     },
     {
@@ -106,13 +106,6 @@
       "title": "Harry Potter and the Deathly Hallows Part 1",
       "subject": "Fan Comment",
       "comment": "Hopefully Dumbledore and Harry can pull this one off!"
-    },
-    {
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "name": "Justin Worley",
-      "subject": "Hi",
-      "comment": "Hi",
-      "id": 8
     }
   ]
 }

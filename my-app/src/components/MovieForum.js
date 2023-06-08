@@ -47,26 +47,27 @@ function MovieForum () {
     
     return (
         <div className="form-box">
-
             <form className ="Movie-Forum" onSubmit={handleSubmitForm} >
-            
-           
-                <label htmlFor="name">Your Name</label>
+                <label htmlFor="form">Submit your comment here!</label>
                     <input type="text" id="name" name="name" placeholder="Your Name..." required/> 
-                <label htmlFor="title">Movie Title</label>
-                    <input type="text" id="title" name="title" placeholder="Title..." required/>
-                <label htmlFor="subject">Subject</label>
+                    <select id="title" name="title" required>                        
+                        <option value={null}>Select Movie</option>
+                        <option value="Harry Potter and the Sorcerer's Stone">Harry Potter and the Sorcerer's Stone</option>
+                        <option value="Harry Potter and the Chamber of Secrets">Harry Potter and the Chamber of Secrets</option>
+                        <option value="Harry Potter and the Prisoner of Azkaban">Harry Potter and the Prisoner of Azkaban</option>
+                        <option value="Harry Potter and the Goblet of Fire">Harry Potter and the Goblet of Fire</option>
+                        <option value="Harry Potter and the Order of the Phoenix">Harry Potter and the Order of the Phoenix</option>
+                        <option value="Harry Potter and the Half Blood Prince">Harry Potter and the Half Blood Prince</option>
+                        <option value="Harry Potter and the Deathly Hallows Part 1">Harry Potter and the Deathly Hallows Part 1</option>
+                        <option value="Harry Potter and the Deathly Hallows Part 2">Harry Potter and the Deathly Hallows Part 2</option>
+                    </select>
                     <input type="text" id="subject" name="subject" placeholder="Subject..." />
-                <label htmlFor="comment">Comment</label>
-                <textarea type="text" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
-                <button type="submit" value="Submit" name="button">APARECIUM</button>  
-
+                    <textarea className="comment-text" type="text" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
+                <button type="submit" value="Submit" name="button">APARECIUM 🪄</button> 
             </form>
-
-            <div className = "forumCards">{renderMovieForum}</div>
-            
-
-
+            <div className = "forumCards">
+                {renderMovieForum}
+            </div>
         </div>
     )
 }

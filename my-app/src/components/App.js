@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className = "body">
       <Header />
       <Routes>
          <Route exact path = '/' element = {<MoviePage />} />

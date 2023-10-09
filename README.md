@@ -1,6 +1,6 @@
 # Phase 2 React Project
 
-Projcet by Gina, Morgan, & Justin
+Project by Gina, Morgan, & Justin
 
 ## Description
 
